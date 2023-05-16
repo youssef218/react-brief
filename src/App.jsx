@@ -6,7 +6,7 @@ import { useState, useEffect } from 'react'
 import './App.css'
 import Header from './header'
 const App = () => {
-  // l'affiche 
+  // l'affiche
   const [clicked, setClicked] = useState(true)
   const handleClick = () => {
     setClicked(!clicked)
@@ -86,6 +86,7 @@ const App = () => {
     setrevenus(totalRevenus)
     setactuel(totalRevenus - totalDepences)
   }, [formData])
+
   return (
     <>
       <Header />

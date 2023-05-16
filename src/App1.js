@@ -1,5 +1,6 @@
 import App from './App'
-import Details from './semicircl'
+// import App from './reat'
+import Semicircl from './semicircl'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
 function App1 () {
@@ -9,7 +10,7 @@ function App1 () {
       <Router>
         <Routes>
           <Route path='/'  element={<App />} />
-          <Route path='/details'  element={<Details />} />
+          <Route path='/details'  element={<Semicircl />} />
         </Routes>
       </Router>
     </>
